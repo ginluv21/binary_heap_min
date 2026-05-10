@@ -1,3 +1,7 @@
+# Dot folders
+.*
+!.gitkeep
+
 # Prerequisites
 *.d
 
@@ -35,6 +39,8 @@
 *.i*86
 *.x86_64
 *.hex
+heap_experiment
+heap_menu
 
 # Debug files
 *.dSYM/
