@@ -16,7 +16,7 @@ int main(){
     for(int i = 0; i < m; i++){
         double ti, tb;
         measure_table1(sizes[i], &ti, &tb);
-        printf("| %-2d | %-9d | %-20.6f | %-20.6f |\n", i + 1, sizes[i], ti, tb);
+        printf("| %-2d | %-9d | %-20.9f | %-20.9f |\n", i + 1, sizes[i], ti, tb);
     }
     printf("+----+-----------+----------------------+----------------------+\n");
 
@@ -27,7 +27,7 @@ int main(){
     for(int i = 0; i < m; i++){
         double te, td;
         measure_table2(sizes[i], &te, &td);
-        printf("| %-2d | %-9d | %-22.6f | %-22.6f |\n", i + 1, sizes[i], te, td);
+        printf("| %-2d | %-9d | %-22.9f | %-22.9f |\n", i + 1, sizes[i], te, td);
     }
     printf("+----+-----------+------------------------+------------------------+\n");
 
